@@ -1,24 +1,40 @@
-# README
+WIP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# Ranking de gastos parlamentares
+One Paragraph of project description goes here
 
-* Ruby version
+## Getting Started
+Essas instruções lhe orientarão a obter uma cópia funcional do projeto em sua máquina local, juntamente com os pré-requisitos necessários para desenvolvimento e teste.
 
-* System dependencies
+## Pré-requisitos
+No terminal:
 
-* Configuration
+- [ ] Instalando PostgreSQL
+$ sudo apt update
+$ sudo apt install postgresql
 
-* Database creation
+- [ ] Para assegurar-se que o PostgreSQL foi instalado com sucesso inicie o serviço:
+```
+$ sudo systemctl start postgresql.service -> 
+```
 
-* Database initialization
+- [ ] Instalando todas as gemas listadas na Gemfile
+```
+$ bundle install
+```
 
-* How to run the test suite
+## Criação do banco de dados
 
-* Services (job queues, cache servers, search engines, etc.)
+### Tecnologias utilizadas
+- Ruby 3.3.5
+- Rails 7.2
+- PostgreSQL - Gerenciamento de dados
+- Beekeper Studio - Gerenciamento de base de dados
+- Insomnia - Teste de requisições
+- RSpec - Testes unitários
+- Rubocop - Linter
+- SimpleCov - Cobertura de testes
 
-* Deployment instructions
-
-* ...
+### Cobertura de testes
+### Comandos úteis
