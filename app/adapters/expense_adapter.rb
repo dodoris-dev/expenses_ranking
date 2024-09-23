@@ -4,7 +4,7 @@ class ExpenseAdapter
   def initialize(row)
     @document_number = row["txtNumero"]
     @attributes = {
-      liquid_value: BigDecimal(row["vlrLiquido"]&.gsub(",", "."), 10),
+      liquid_value: BigDecimal(row["vlrLiquido"]&.gsub(",", ".") || "0", 10),
       supplier: row["txtFornecedor"],
       cpf: row["cpf"],
       issue_date: row["datEmissao"],
