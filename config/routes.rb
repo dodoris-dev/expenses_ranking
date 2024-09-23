@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get "data/processing_csv", to: "data#processing_csv"
+  post "data/processing_csv", to: "data#processing_csv"
 
   resources :expenses
   resources :deputies do
