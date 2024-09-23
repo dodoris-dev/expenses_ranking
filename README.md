@@ -96,7 +96,7 @@ Abra ```coverage/index.html```
 - [Documentação do RSpec](https://rspec.info/documentation/)
 
 #### Rodando manualmente o processamento de CSV
-Caso queira, é possível rodar um script que "amarra" toda a lógica d processamento do seu CSV
+Caso queira, é possível rodar um script que "amarra" toda a lógica de processamento do seu CSV
 
 ```rb
 require 'csv'
